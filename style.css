@@ -2,10 +2,22 @@ body{
 	background-image: url("http://www.picshunger.com/wp-content/uploads/2014/09/halloween_wallpaper_by_sandara.jpg");
 	color: #7FFFD4;
 	padding: 10px;
+	height:100vh; /* 100% of viewport height */
 }
 
-.module{
-	cursor: url(pump.png, auto;)
+h2 {
+	color:magenta;
+	text-shadow:0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green;
+	font-size:50px;
+	font-family:sans-serif;
+}
+
+body p:nth-child(5) { /* nth selectors are cool */
+	color:white;
+}
+
+.module,*{
+	cursor: url('pump.png'), auto; /* has to be in quotes and fallback has to go outside of url... use asterisk to make pumpkin cursor for everything */
 }
 
 .green{
