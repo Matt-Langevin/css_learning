@@ -1,3 +1,24 @@
+body{
+	background-color: #000;
+	color: #fff;
+}
+
 .module{
-	cursor: url(/pump.png, auto;)
+	cursor: url(pump.png, auto;)
+}
+
+.green{
+	color: #009688;
+}
+
+.blue{
+	color: #009FFF;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
 }
