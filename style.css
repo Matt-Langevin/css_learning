@@ -1,10 +1,23 @@
 body{
-	background-color: #000;
-	color: #fff;
+	background-image: url("https://i.pinimg.com/originals/03/f5/76/03f5767d8f66202c6120b87e6a3fa872.jpg");
+	color: #7FFFD4;
+	padding: 10px;
+	height:100vh; /* 100% of viewport height */
 }
 
-.module{
-	cursor: url(pump.png, auto;)
+h2 {
+	color:magenta;
+	text-shadow:0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green;
+	font-size:50px;
+	font-family:sans-serif;
+}
+
+body p:nth-child(5) { /* nth selectors are cool */
+	color:white;
+}
+
+.module,*{
+	cursor: url('pump.png'), auto; /* has to be in quotes and fallback has to go outside of url... use asterisk to make pumpkin cursor for everything */
 }
 
 .green{
