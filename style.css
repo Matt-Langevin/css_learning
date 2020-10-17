@@ -35,3 +35,7 @@ body p:nth-child(5) { /* nth selectors are cool */
 .italic{
 	font-style: italic;
 }
+
+.orange{
+	color: #ffa500;
+}
