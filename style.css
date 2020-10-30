@@ -26,7 +26,7 @@ body p:nth-child(5) { /* nth selectors are cool */
 }
 
 .chillhop {
-	margin-top: 15px;
+	padding-top: 30px;
 }
 
 .module,*{
