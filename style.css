@@ -8,10 +8,10 @@ body{
 }
 
 .main{
-	max-width:1000px;
+	max-width:1500px;
 	margin:0 auto;
 	background:rgba(0,0,0,0.9);
-	max-height: 2000px;
+	padding: 25px;
 }
 
 h2 {
@@ -32,6 +32,8 @@ body p:nth-child(5) { /* nth selectors are cool */
 .module,*{
 	cursor: url('pump.png'), auto; /* has to be in quotes and fallback has to go outside of url... use asterisk to make pumpkin cursor for everything */
 }
+
+li, a { cursor: pointer; }
 
 .green{
 	color: #009688;
