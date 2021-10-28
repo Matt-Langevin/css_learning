@@ -33,7 +33,7 @@ body p:nth-child(5) { /* nth selectors are cool */
 	cursor: url('pump.png'), auto; /* has to be in quotes and fallback has to go outside of url... use asterisk to make pumpkin cursor for everything */
 }
 
-li, a { cursor: pointer; }
+li:hover { cursor: pointer; }
 
 .green{
 	color: #009688;
