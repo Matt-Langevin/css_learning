@@ -35,8 +35,10 @@ body p:nth-child(5) { /* nth selectors are cool */
 
 li:hover { cursor: pointer; }
 
+/* FONTS */
 .roboto {font-family: 'Roboto', sans-serif;}
-
+.silkscreen {font-family: 'Silkscreen', cursive;}
+/* FONTS END */
 .green{
 	color: #009688;
 }
