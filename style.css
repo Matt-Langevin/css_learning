@@ -14,11 +14,14 @@ body{
 	padding: 25px;
 }
 
+h1 {text-align:center;}
+
 h2 {
 	color:magenta;
 	text-shadow:0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green,0 0 3px green;
 	font-size:50px;
 	font-family:sans-serif;
+	text-align:center;
 }
 
 body p:nth-child(5) { /* nth selectors are cool */
