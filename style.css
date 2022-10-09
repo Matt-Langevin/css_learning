@@ -54,3 +54,20 @@ li:hover { cursor: pointer; }
 .orange{
 	color: #ffa500;
 }
+
+.katskorner {
+	border: none;
+	color: white;
+	text-align: center;
+	padding: 10px 27px;
+	font-size: 18px;
+	margin: 4px 2px;
+	background-color: #FCBACB;
+	font-family: Jazz LET, fantasy;
+}
+
+.kattext {
+	color: white;
+	font-size: 14px;
+	font-family: Calibri;
+}
