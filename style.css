@@ -36,6 +36,7 @@ body p:nth-child(5) { /* nth selectors are cool */
 li:hover { cursor: pointer; }
 
 /* FONTS */
+.orbitron {font-family: 'Orbitron', sans-serif;}
 .roboto {font-family: 'Roboto', sans-serif;}
 .silkscreen {font-family: 'Silkscreen', cursive;}
 /* FONTS END */
