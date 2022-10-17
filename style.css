@@ -60,7 +60,7 @@ li:hover { cursor: pointer; }
 	color: white;
 	text-align: center;
 	padding: 10px 27px;
-	font-size: 18px;
+	font-size: 24px;
 	margin: 4px 2px;
 	background-color: #FCBACB;
 	font-family: Jazz LET, fantasy;
@@ -68,6 +68,7 @@ li:hover { cursor: pointer; }
 
 .kattext {
 	color: white;
-	font-size: 14px;
+	font-size: 20px;
 	font-family: Calibri;
+	text-align: center;
 }
