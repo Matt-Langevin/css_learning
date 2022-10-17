@@ -70,7 +70,7 @@ h5 {}
 	color: white;
 	text-align: center;
 	padding: 10px 27px;
-	font-size: 18px;
+	font-size: 24px;
 	margin: 4px 2px;
 	background-color: #FCBACB;
 	font-family: Jazz LET, fantasy;
@@ -78,6 +78,35 @@ h5 {}
 
 .kattext {
 	color: white;
-	font-size: 14px;
+	font-size: 20px;
 	font-family: Calibri;
+	text-align: center;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-align: center;
+}
+  
+li {
+	float: left;
+	text-align: center;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right: 1px solid #bbb;
+}
+li:last-child {
+	border-right: none;
+}
+  li a:hover {
+	background-color: #111;
+  }
