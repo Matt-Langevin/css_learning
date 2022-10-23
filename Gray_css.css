@@ -1,1 +1,15 @@
-.blue{color: blue;}
+.blue{color: #2acaea;}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b7c38e83-4208-43a2-b29c-8c8927839554/d5l7g72-755f5766-647f-4a4f-8fb1-9708e2d6202c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I3YzM4ZTgzLTQyMDgtNDNhMi1iMjljLThjODkyNzgzOTU1NFwvZDVsN2c3Mi03NTVmNTc2Ni02NDdmLTRhNGYtOGZiMS05NzA4ZTJkNjIwMmMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k9-w4XXY872WYy96-rTEzPhx506yQg_swt-TLbSOcqs");
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 1200px; /* You setting a specified height */
+}
