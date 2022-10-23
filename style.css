@@ -92,7 +92,7 @@ ul {
 }
   
 li {
-	float: left;
+	display: inline-block;
 	text-align: center;
 }
   
