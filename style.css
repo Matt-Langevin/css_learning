@@ -107,6 +107,6 @@ li a {
 li:last-child {
 	border-right: none;
 }
-  li a:hover {
+li a:hover {
 	background-color: #111;
-  }
+}
