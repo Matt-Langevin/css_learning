@@ -1,7 +1,7 @@
 #earth {
   /* [1] Allow it to contain the absolutely positions pseudo-elements (later-on) */
   position: relative;
-
+  
   /* [2] Set-up the dimensions and spacing */
   width: 300px;
   height: 300px;
