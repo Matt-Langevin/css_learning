@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-	<link rel="stylesheet" href="Gray_css.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="Gray_css.css?v=<?php echo time(); ?>">
     <title>CSS Learning</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="snowfall.min.js?v=<?php echo time(); ?>"></script>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <!-- Beginning of Body -->
+
 <body>
     <div class="main roboto">
-      <!-- Adding Nav bar -->
+        <!-- Adding Nav bar -->
         <ul>
-            <li><a href = "index.html">Main</a></li>
-            <li><a href = "HerosHome.html">Hero's Home</a></li>
-            <li><a href = "KatsKorner.html">Kat's Corner</a></li>
-            <li><a href = "MattsManCave.html">Matt's Man Cave</a></li>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="HerosHome.html">Hero's Home</a></li>
+            <li><a href="KatsKorner.html">Kat's Corner</a></li>
+            <li><a href="MattsManCave.html">Matt's Man Cave</a></li>
             <li><a href="love.html">Love Animation</a></li>
-			<li><a href="Gray_HTML.html">Cloud Rest</a></li>
+            <li><a href="Gray_HTML.html">Cloud Rest</a></li>
+            <li><a href="vermilion4.html">Vermilion's Lair</a></li>
         </ul>
 
         <h1 class="module orbitron blue">Gray's Page</h1>
-		
-		<iframe class="centered" width="560" height="315" src="https://www.youtube.com/embed/Zsqep7_9_mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-    
+
+        <iframe class="centered" width="560" height="315" src="https://www.youtube.com/embed/Zsqep7_9_mw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
     </div>
 
-<!-- Scripts live here -->
+    <!-- Scripts live here -->
     <script>
-        $(document).ready(function() {
-        $(document).snowfall('clear');
+        $(document).ready(function ()
+        {
+            $(document).snowfall('clear');
             $(document).snowfall({
-                image :"flake.png", 
-                minSize: 10, 
-                maxSize:30,
-                flakeCount:100
+                image: "flake.png",
+                minSize: 10,
+                maxSize: 30,
+                flakeCount: 100
             });
         });
     </script>
