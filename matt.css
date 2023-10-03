@@ -14,7 +14,8 @@
   /* [4] Tweak the appearance, and give it a nice background i.e. the world map */
   color: #000;
   border-radius: 50%;
-  background: url("https://lh5.googleusercontent.com/-kkxEx-SkRaY/VBLF4BV2lZI/AAAAAAAAKao/FnKsv7402_c/s500/earthmap.jpg") 0 0 repeat / 630px;
+  background-image: url(https://lh5.googleusercontent.com/-kkxEx-SkRaY/VBLF4BV2lZI/AAAAAAAAKao/FnKsv7402_c/s500/earthmap.jpg)
+  background-repeat: repeat;
   box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
 
   /* [5] Position things in a 3d space */
