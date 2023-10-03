@@ -1,0 +1,22 @@
+#earth {
+  /* [1] Allow it to contain the absolutely positions pseudo-elements (later-on) */
+  position: relative;
+
+  /* [2] Set-up the dimensions and spacing */
+  width: 300px;
+  height: 300px;
+  margin: 3em auto;
+
+  /* [3] Prepare the animation effects */
+  transition: transform 200ms linear;
+  animation: rotate 4s linear infinite; /* This is going to be defined in the next step */
+
+  /* [4] Tweak the appearance, and give it a nice background i.e. the world map */
+  color: #000;
+  border-radius: 50%;
+  background: url(path/to/world-map-image) 0 0 repeat / 630px;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+
+  /* [5] Position things in a 3d space */
+  transform-style: preserve-3d;
+}
